@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单对齐</title>
+	<style type="text/css">
+		textarea {
+			vertical-align: top;
+		}
+		form p {
+			overflow: hidden;
+		}
+		form p label {
+			float: left;
+			width: 120px;
+			text-align: right;
+			margin-right: 10px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<p><label>请输入用户名</label> <input type="text" name="user-name"></p>
+		<p><label>请输入密码</label> <input type="password" name="password"></p>
+		<p><label>请再次输入密码</label> <input type="password" name="password-again"></p>
+		<p><label>请输入描述</label> <textarea cols="20" rows="5"></textarea></p>
+	</form>
+</body>
+</html>
